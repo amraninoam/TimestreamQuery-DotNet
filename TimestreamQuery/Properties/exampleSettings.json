@@ -1,0 +1,15 @@
+{
+  "profiles": {
+    "TimestreamQuery": {
+      "commandName": "Project",
+      "environmentVariables": {
+        "profile": "my-profile",
+        "rows": "3",
+        "serviceURL": "https://query.timestream.eu-west-1.amazonaws.com"
+      }
+    },
+    "Container (Dockerfile)": {
+      "commandName": "Docker"
+    }
+  }
+}
