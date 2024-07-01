@@ -10,10 +10,10 @@
 
   <ItemGroup>
     <PackageReference Include="AWSSDK.Extensions.NETCore.Setup" Version="3.7.301" />
-    <PackageReference Include="AWSSDK.SecurityToken" Version="3.7.300.109" />
-    <PackageReference Include="AWSSDK.SSO" Version="3.7.300.108" />
-    <PackageReference Include="AWSSDK.SSOOIDC" Version="3.7.302.19" />
-    <PackageReference Include="AWSSDK.TimestreamQuery" Version="3.7.301.24" />
+    <PackageReference Include="AWSSDK.SecurityToken" Version="3.7.1.218" />
+    <PackageReference Include="AWSSDK.SSO" Version="3.7.0.226" />
+    <PackageReference Include="AWSSDK.SSOOIDC" Version="3.7.302.22" />
+    <PackageReference Include="AWSSDK.TimestreamQuery" Version="3.7.2.89" />
     <PackageReference Include="Microsoft.VisualStudio.Azure.Containers.Tools.Targets" Version="1.20.1" />
   </ItemGroup>
 
