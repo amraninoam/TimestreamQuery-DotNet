@@ -14,7 +14,7 @@ This is a C# application that queries an AWS Timestream database and prints the 
 
     ```sh
     git clone https://github.com/amraninoam/TimestreamQuery-DotNet
-    cd timestream-query-csharp
+    cd TimestreamQuery-DotNet
     ```
 
 2. Install dependencies:
