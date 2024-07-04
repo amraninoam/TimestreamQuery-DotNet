@@ -64,9 +64,6 @@ namespace TimestreamQueryExample
                     QueryString = queryString
                 };
 
-                Amazon.AWSConfigs.LoggingConfig.LogResponses = Amazon.ResponseLoggingOption.Always;
-                Amazon.AWSConfigs.LoggingConfig.LogTo = Amazon.LoggingOptions.SystemDiagnostics;
-                Amazon.AWSConfigs.AddTraceListener("Amazon", new System.Diagnostics.ConsoleTraceListener());
 
                 var queryResponse = await client.QueryAsync(queryRequest);
 
